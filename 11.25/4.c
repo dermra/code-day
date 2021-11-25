@@ -5,8 +5,8 @@ int main()
 {
     char str[30];
     int i;
-    scanf("%s", &str);
-    for (i = strlen(str); i >= 0; i--)
+    gets(str);
+    for (i = strlen(str) - 1; i >= 0; i--)
     {
         printf("%c", str[i]);
     }
