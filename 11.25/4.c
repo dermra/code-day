@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+//倒序输出
 int main()
 {
     char str[30];
